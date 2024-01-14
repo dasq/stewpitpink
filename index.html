@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Stewpit - Because we all are</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h2 class="text-white">Stewpit</h2>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#listening_section" class="nav-item nav-link">Listen</a>
+                        <a href="#booking_section" class="nav-item nav-link">Booking</a>
+						<a href="#concert_section" class="nav-item nav-link">On Tour</a>
+						<a href="#videos_section" class="nav-item nav-link">Videos</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="feature.html" class="dropdown-item">Stewpit People</a>
+								<a href="#benefits_section" class="dropdown-item">We are the bests</a>
+                                <a href="#testimonial_section" class="dropdown-item">Testimonial</a>
+                                <a href="#blog_section" class="dropdown-item">Blog Articles</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a href="" class="btn btn-dark py-2 px-4 d-none d-lg-inline-block">Book Now</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary hero-header mb-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3 class="fw-light text-white animated slideInRight">Mashup Band from Dresden</h3>
+                    <h1 class="display-4 text-white animated slideInRight"><!--<span class="fw-light text-dark">We Are </span>-->We Are Stewpit</h1>
+					<!--<p>Wie Detektive findet Stewpit heraus, dass Led Zeppelin und Rage Against the Machine gut zusammen klingen, Britney Spears und Rick and Morty in einem Lied vermengt 
+					werden wollen - meist mit funky und rocky Anstrich.-->
+					<p class="text-white mb-4 animated slideInRight">Just like Detectives, Stewpit finds out that Led Zeppelin and Rage Against the Machine are a perfect match, or that 
+					Britney Spears and Rick and Morty always wanted to end up together.
+					<p class="text-white mb-4 animated slideInRight">Get ready for a Stewpit experience!</p>
+					<!--<p>Borned from a stupid idea between friends, Stewpit mixes all the best-known songs into something unique, tasteful and fun.</p>
+					<p>Very much inspired by bands like Scary Pockets and Pomplamoose, Stewpit finds itself very often into the Funk, Rock, Ska and Jazz worlds.-->
+                    <a href="https://www.youtube.com/@stewpitband" target="_blank" rel="noopener noreferrer" class="btn btn-dark py-2 px-4 me-3 animated slideInRight">Watch Now</a>
+                    <a href="" class="btn btn-outline-dark py-2 px-4 animated slideInRight">Contact Us</a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid animated pulse infinite" src="img/Stewpit-Full-Norris2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Feature Start --><!--
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="feature-item position-relative bg-primary text-center p-3">
+                        <div class="border py-5 px-3">
+                            <i class="fa fa-leaf fa-3x text-dark mb-4"></i>
+                            <h5 class="text-white mb-0">100% Natural</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item position-relative bg-primary text-center p-3">
+                        <div class="border py-5 px-3">
+                            <i class="fa fa-tint-slash fa-3x text-dark mb-4"></i>
+                            <h5 class="text-white mb-0">Hypoallergenic</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item position-relative bg-primary text-center p-3">
+                        <div class="border py-5 px-3">
+                            <i class="fa fa-times fa-3x text-dark mb-4"></i>
+                            <h5 class="text-white mb-0">Antidepressant</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="listening_section">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" src="img/Stewpit-Love-Beauty.jpg">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="text-primary mb-4">Stewpit <span class="fw-light text-dark">Is A Symbol Of Our
+                            Beauty</span></h1>
+                    <p class="mb-4">Simply listening to Stewpit music can make your day! Imagine your typical Monday on your way to work: hangovered, tired and sad. Right?</p>
+										Now, start listening to Stewpit music and you'll see it: everything gets brighter, the sun will start to shine and people will smile at you.
+										Even your crush, who always takes the same ride than you, will finally come to you and ask you out.</p>
+					<p class="mb-4">Yes, Stewpit can!</p>
+					<p class="mb-4">It is amazing how Stewpit can make your life simple and beautiful. So, what are you waiting for?</p>
+					<!--<p class="mb-4">But keep it in repeat mode and you'll find yourself smarter.</p>
+                    <p class="mb-4">That's only when in our presence to our Stewpit's aura that you will finally have it: Stewpit Awesomeness.</p> -->
+                    <a class="btn btn-primary py-2 px-4" href="https://soundcloud.com/user-988977820/sets/stewpit-demos?si=015a53ebefd24f759a5d418986bf9e3c" target="_blank" rel="noopener noreferrer">Listen Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Deal Start -->
+    <div class="container-fluid deal bg-primary my-5 py-5" >
+        <div class="container py-5">
+            <div class="row g-5 align-items-center" >
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" src="img/Blurry Stewpit.jpg">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" id="#booking_section">
+                    <div class="bg-white text-center p-4">
+                        <div class="border p-4">
+                            <p class="mb-2">Awesome and Fun</p>
+                            <h2 class="fw-bold text-uppercase mb-4">Stewpit Concert</h2>
+                            <h1 class="display-4 text-primary mb-4">Book Us Now</h1>
+                            <!--<h5>Don't miss out on a one lifetime experience for you and your friends</h5>
+                            <p class="mb-4"> "As always, should you or any of your Impossible Mission Force be caught or killed, 
+							the Secretary will disavow any knowledge of your actions. This offer will self-destruct in five/ten seconds. Good luck."</p>-->
+							<h5>Don't miss out on a one lifetime experience</h5>
+                            <p class="mb-4">The Stewpit experience has been already lived by billions of people in the whole world. 
+							And this is something you definitely need in your life! Just for you and your family at a small occasion, or maybe with all your friends at your birthday party
+							or even for your big festival, there is always a need for Stewpit.</p>
+							"And as always... This offer will self-destruct in thriteen days. Good luck."</p>
+                            <div class="row g-0 cdt mb-4">
+                                <div class="col-3">
+                                    <h1 class="display-6" id="cdt-days"></h1>
+                                </div>
+                                <div class="col-3">
+                                    <h1 class="display-6" id="cdt-hours"></h1>
+                                </div>
+                                <div class="col-3">
+                                    <h1 class="display-6" id="cdt-minutes"></h1>
+                                </div>
+                                <div class="col-3">
+                                    <h1 class="display-6" id="cdt-seconds"></h1>
+                                </div>
+                            </div>
+                            <a class="btn btn-primary py-2 px-4" href="">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Deal End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid py-5" id="benefits_section">
+        <div class="container">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-primary mb-3"><span class="fw-light text-dark">Best Benefits Of </span>Stewpit</h1>
+                <p class="mb-5">You'll never believe how much benefits can Stewpit brings in your life.</p>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="row g-5">
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Natural & Organic</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Only the best musicians just for you. Exactly what your metabolism needs.</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>100% Good Music</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>We take only the good part of each best songs.</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Prevent Memory Loss</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Remember your slow dance with Pamela from 9th grade? Yep, we're playing this song too. But this time you'll get lucky!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" src="img/artworks-stewpit.jpg">
+					<p class="mb-5">Image by fxquadro on Freepik</p>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="row g-5">
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Internal Side Effect</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Our music makes you become a better Human.</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>100% Fun</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Even doctors don't know how to remove this smile on your face.</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>No Artificial Smell</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>We use only the best ingredients for our Mashups. And you can smell it. Your nose will thank you!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- How To Use Start -->
+    <div class="container-fluid how-to-use bg-primary my-5 py-5" id="concert_section">
+        <div class="container text-white py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-white mb-3"><span class="fw-light text-dark">When/Where To See Our</span> Stewpit
+                    <span class="fw-light text-dark">Live Show</span></h1>
+                <p class="mb-5">Here is when and where you can finally through those stewpit bras at us.</p>
+            </div>
+            <div class="row g-5">
+
+				<a href="https://www.songkick.com/artists/10320491" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="off" data-background-color="rgb(255,255,255,1)" data-font-color="rgb(0,0,0,1)" data-button-bg-color="rgb(0,0,0,1)" data-button-text-color="rgb(255,255,255,1)" data-locale="en" data-other-artists="on" data-share-button="on" data-country-filter="off" data-rsvp="on" data-request-show="on" data-past-events="off" data-past-events-offtour="off" data-remind-me="off"></a><script src='//widget-app.songkick.com/injector/10320491'></script>
+
+            </div>
+        </div>
+    </div>
+    <!-- How To Use End -->
+
+
+    <!-- Product Start -->
+    <div class="container-fluid py-5" id="videos_section">
+        <div class="container">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-primary mb-3"><span class="fw-light text-dark">Our Stewpit</span> Eye Stimulator</h1>
+                <p class="mb-5">'I had some beautiful pictures taken in which I had a big smile on my face. 
+				I looked happy, I looked content, I looked like a very nice person, which in theory I am.'</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/product-1.png" alt="">
+                        <div class="mb-2">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small>(99)</small>
+                        </div>
+                        <a href="" class="h6 d-inline-block mb-2">Stewpit - Live at Riesa Efau</a>
+                        <h5 class="text-primary mb-3">Song Title</h5>
+                        <a href="https://www.youtube.com/@stewpitband" class="btn btn-outline-primary px-3">Watch</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/product-2.png" alt="">
+                        <div class="mb-2">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small>(99)</small>
+                        </div>
+                        <a href="" class="h6 d-inline-block mb-2">Live at the Club Aquarium</a>
+                        <h5 class="text-primary mb-3">Song Title</h5>
+                        <a href="https://www.youtube.com/@stewpitband" class="btn btn-outline-primary px-3">Watch</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/product-1.png" alt="">
+                        <div class="mb-2">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small>(99)</small>
+                        </div>
+                        <a href="" class="h6 d-inline-block mb-2">Live at the Club Aquarium</a>
+                        <h5 class="text-primary mb-3">Song Title</h5>
+                        <a href="https://www.youtube.com/@stewpitband" class="btn btn-outline-primary px-3">Watch</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/product-2.png" alt="">
+                        <div class="mb-2">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small>(99)</small>
+                        </div>
+                        <a href="" class="h6 d-inline-block mb-2">Live at the Birthday Party</a>
+                        <h5 class="text-primary mb-3">Song Title</h5>
+                        <a href="https://www.youtube.com/@stewpitband" class="btn btn-outline-primary px-3">Watch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial bg-primary my-5 py-5" id="testimonial_section">
+        <div class="container text-white py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-white mb-3">Our Customer Said <span class="fw-light text-dark">About Stewpit</span></h1>
+                <p class="mb-5">We all are Stewpit.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.1s">
+                        <div class="testimonial-item text-center" data-dot="1">
+                            <img class="img-fluid border p-2" src="img/testimonial-1.jpg" alt="">
+                            <h5 class="fw-light lh-base text-white">You don't need to go to church to be a Stewpit. If you go to Taco Bell, that doesn't make you a taco.</h5>
+                            <h5 class="mb-1">J. Bieber</h5>
+                            <h6 class="fw-light text-white fst-italic mb-0">Stewpit</h6>
+                        </div>
+                        <div class="testimonial-item text-center" data-dot="2">
+                            <img class="img-fluid border p-2" src="img/testimonial-2.jpg" alt="">
+                            <h5 class="fw-light lh-base text-white">'I think Stewpit is wonderful if you need it, if you have medical issues, if you’ve had surgery. 
+					I’ve just never needed it. Frankly, I wouldn’t mind if there were an anti-Stewpit, something with the opposite effect. 
+					I’m not bragging. I’m just lucky. I don’t need it. I’ve always said, "If you need Stewpit, you’re probably with the wrong girl."'
+                            <h5 class="mb-1">D. Trump</h5>
+                            <h6 class="fw-light text-white fst-italic mb-0">Stewpit</h6>
+                        </div>
+                        <div class="testimonial-item text-center" data-dot="3">
+                            <img class="img-fluid border p-2" src="img/testimonial-3.jpg" alt="">
+                            <h5 class="fw-light lh-base text-white">People ask me a lot about my drive. I think it comes from, like, 
+							having a Stewpit addiction at a really young age. Look at the drive that people have to get Stewpit – 
+							to dress like this and get a haircut and be in the club in the freezing cold at 3 A.M., 
+							the places they go to pick up a Stewpit girl. If you can focus the energy into something valuable, put that into work ethic...</h5>
+                            <h5 class="mb-1">K. West</h5>
+                            <h6 class="fw-light text-white fst-italic mb-0">Stewpit</h6>
+                        </div>
+						<div class="testimonial-item text-center" data-dot="4">
+                            <img class="img-fluid border p-2" src="img/testimonial-3.jpg" alt="">
+                            <h5 class="fw-light lh-base text-white">Seems like an opportune moment to bring up the Stewpit Paradox, aka 'Where are the aliens?' 
+							Really odd that we see no sign of them. Btw, please don't mention the pyramids. Stacking stone blocks is not evidence of an advanced civilization. 
+							The rumor that I'm building a spaceship to get back to my home planet Mars is totally untrue. 
+						The ancient Egyptians were amazing, but if aliens built the pyramids, they would've left behind a computer or something.</h5>
+                            <h5 class="mb-1">E. Musk</h5>
+                            <h6 class="fw-light text-white fst-italic mb-0">Stewpit</h6>
+                        </div>	
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5" id="blog_section">
+        <div class="container">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-primary mb-3"><span class="fw-light text-dark">From Our</span> Blog Articles</h1>
+                <p class="mb-5">All you need to know, if you also needs a bit of Stewpit in your everyday life.</p>
+            </div>
+            <div class="row g-4">
+				<div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/furbylove.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to Show That You Love Your Furby</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">Want your Furby to feel loved and taken care of by a loving owner? That owner could be you! By following these steps on how to love your very own Furby and 
+						treat it like its best friend, you could build a tight bond and a good relationship with your Furby!</p>
+                        <a href="https://www.instructables.com/How-to-show-that-you-love-your-Furby/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/howtoactlikeababyagain.jpg.webp" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to Act Like a Baby Again</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">There has been research to show that for many people, the idea of regressing into a childlike state is comforting, exciting, and perfectly normal.
+						If you're curious about how to act like a baby, you can learn to talk, act, and dress like a baby, purely for fun. See Step 1 for more information. </p>
+                        <a href="https://www.wikihow-fun.com/Act-Like-a-Baby-Again" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/howtochargeaphone2.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to charge a phone</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">Cell phones don't have unlimited batteries that will keep it running for weeks and years before needing a charge.
+						If you use your phone once or twice a day, it is likely you will need to charge it after about a day of use.</p>
+                        <a href="https://www.wikihow.com/Charge-Your-Cell-Phone" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/howtolovedeathmetal2.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to Appreciate Death Metal</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">While most people associate death metal music with a bunch of guys screaming and creating random noise, there's a multitude of reasons why 
+						this genre maintains a strong following and earns the fierce loyalty of many listeners worldwide. Here's why. </p>
+                        <a href="https://www.wikihow-fun.com/Appreciate-Death-Metal" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/howtocat.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to Apologize to a Cat</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">Oh no! You've done something to deeply offend your cat, and now it won't even let you come near it. Fortunately, it is possible to earn a cat's forgiveness. 
+						This article will show you not only how to apologize to your cat, but it will also show you how to do it safely, so that you don't get scratched. </p>
+                        <a href="https://www.wikihow.com/Apologize-to-a-Cat" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/howtosandwich.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to Make a Peanut Butter and Jelly Sandwich</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">The peanut butter and jelly sandwich (affectionately called a PB&J) is a tasty American staple and makes a quick, easy lunch or snack.
+						You can have it the traditional way or you can get creative put lots of fun, tasty treats in it. See Making a Basic Sandwich to get started with your delicious sandwich!</p>
+                        <a href="https://www.wikihow.com/Make-a-Peanut-Butter-and-Jelly-Sandwich" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/howtodrunk.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to Know if You Are Drunk</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">Sometimes it’s hard to tell if you’re drunk or not, especially if you’re feeling tired or are just having a really great time. 
+						You can tell if you’re drunk by checking for common signs or by doing a field sobriety test. </p>
+                        <a href="https://www.wikihow.com/Know-if-You-Are-Drunk" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/howtowalk.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to Walk</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">While it might sound totally easy to just hop up and start walking, there actually is a right way (and a wrong way!) to walk. In this article, we’ll tell you the proper 
+						walking form as well as some quick tips to help get you started on your exercise journey today. So what are you waiting for? Let’s walk! </p>
+                        <a href="https://www.wikihow.com/Walk" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/goatbeardscratch.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to Scratch Your Boyfriend's Beard</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat.</p>
+                        <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="blog-item border h-100 p-4">
+                        <img class="img-fluid mb-4" src="img/howtoeat.jpg" alt="">
+                        <a href="" class="h5 lh-base d-inline-block">How to Eat</a>
+                        <div class="d-flex text-black-50 mb-2">
+                            <div class="pe-3">
+                                <small class="fa fa-eye me-1"></small>
+                                <small>9999 Views</small>
+                            </div>
+                            <div class="pe-3">
+                                <small class="fa fa-comments me-1"></small>
+                                <small>9999 Comments</small>
+                            </div>
+                        </div>
+                        <p class="mb-4">You'll never thought of it and that's exactly why you need to know this.</p>
+                        <a href="https://scratch.mit.edu/projects/300245397" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3">Read More</a>
+                    </div>
+                </div>
+				
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid newsletter bg-primary py-5 my-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-white mb-3"><span class="fw-light text-dark">Let's Subscribe</span> The Stewpit Newsletter</h1>
+                <p class="text-white mb-4">Subscribe now to get 100% discount on any of our products</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="position-relative w-100 mt-3 mb-2">
+                        <input class="form-control w-100 py-4 ps-4 pe-5" type="text" placeholder="Enter Your Email"
+                            style="height: 48px;">
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-white fs-4"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-white footer">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-primary">Stewpit</h1>
+                    </a>
+                    <p class="mb-0">Because we all are.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="mb-4">Our Products</h5>
+                    <a class="btn btn-link" href="">Hair Shining Shampoo</a>
+                    <a class="btn btn-link" href="">Anti-dandruff Shampoo</a>
+                    <a class="btn btn-link" href="">Anti Hair Fall Shampoo</a>
+                    <a class="btn btn-link" href="">Hair Growing Shampoo</a>
+                    <a class="btn btn-link" href="">Anti smell Shampoo</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="mb-4">Popular Link</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Career</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
